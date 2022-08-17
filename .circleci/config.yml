@@ -24,7 +24,7 @@ jobs:
           path: test/
       - store_artifacts:
           path: test-results
-    scan_app:
+  scan_app:
     docker:
       - image: cimg/node:14.16.0
     steps:
